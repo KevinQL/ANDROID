@@ -15,5 +15,33 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="contadorsillo"
+        android:id="@+id/txtcontador"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="restablecer"
+        android:id="@+id/btresetea"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sumar"
+        android:id="@+id/btsuma"
+        android:layout_above="@+id/btresetea"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="restat"
+        android:id="@+id/btresta"
+        android:layout_below="@+id/btresetea"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
